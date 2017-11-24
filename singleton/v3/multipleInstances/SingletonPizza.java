@@ -7,7 +7,7 @@ public class SingletonPizza {
 
 	private static List<SingletonPizza> singletonList = new ArrayList<SingletonPizza>();
 
-	private static final String[] NAMES = {"Vegetaliana", "Carne", "Pescado"};
+	private static final String[] NAMES = {"carne", "pescado", "vegetariana"};
 	
 	private static final int MAX = NAMES.length;
 	
@@ -29,6 +29,6 @@ public class SingletonPizza {
 	}
 
 	public void getPizza() {
-		System.out.println("Ejecucion de getPizza() de SingletonPizza nos da: " + name);
+		System.out.println("Tenga su pizza de " + name);
 	}
 }
