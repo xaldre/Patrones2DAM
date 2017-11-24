@@ -1,4 +1,4 @@
-package designPatterns.patterns.singleton.v6.subclassifing.cpp;
+package v6.subclassifing.cpp;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,13 +18,13 @@ public class SingletonRegistry {
 		
 	}
 
-	private Map<String, Singleton> singletonMap = new HashMap<String, Singleton>();
+	private Map<String, SingletonPizza> singletonMap = new HashMap<String, SingletonPizza>();
 
-	protected void register(String name, Singleton singleton) {
+	protected void register(String name, SingletonPizza singleton) {
 		singletonMap.put(name, singleton);
 	}
 	
-	protected Singleton lookup(String name) {
+	protected SingletonPizza lookup(String name) {
 		return singletonMap.get(name);
 	}
 
