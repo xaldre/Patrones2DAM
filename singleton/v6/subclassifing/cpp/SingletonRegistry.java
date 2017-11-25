@@ -1,4 +1,4 @@
-package v6.subclassifing.cpp;
+package designPatterns.patterns.singleton.v6.subclassifing.cpp;
 
 import java.util.HashMap;
 import java.util.Map;

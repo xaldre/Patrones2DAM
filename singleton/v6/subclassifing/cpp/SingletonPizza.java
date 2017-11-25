@@ -1,4 +1,4 @@
-package v6.subclassifing.cpp;
+package designPatterns.patterns.singleton.v6.subclassifing.cpp;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -20,7 +20,7 @@ public class SingletonPizza {
 	
 	private static String getSingletonConfigure() {
 		String line = "";
-		try (BufferedReader in = new BufferedReader(new FileReader("singletonConfigure"))) {
+		try (BufferedReader in = new BufferedReader(new FileReader("singletonConfigureV6"))) {
 			line = in.readLine().substring(13);
 		} catch (IOException ex) {
 			System.out.println("IOException al leer: " + ex.getMessage());
