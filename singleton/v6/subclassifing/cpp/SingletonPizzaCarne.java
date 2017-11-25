@@ -1,14 +1,14 @@
-package v6.subclassifing.cpp;
+package designPatterns.patterns.singleton.v6.subclassifing.cpp;
 
 public class SingletonPizzaCarne extends SingletonPizza {
 
 	protected SingletonPizzaCarne() {
 		super();
-		SingletonRegistry.instance().register("Pizza de carne", this);
+		SingletonRegistry.instance().register("SingletonPizzaCarne", this);
 	}
 
 	public void getPizza() {
-		System.out.println("Tenga su pizza de carne");
+		System.out.println("Pizzero: Marchando su pizza de carne calentita!!!");
 	}
 	
 	public static void register() {

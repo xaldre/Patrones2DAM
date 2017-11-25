@@ -1,4 +1,4 @@
-package v3.multipleInstances;
+package designPatterns.patterns.singleton.v3.subclassifing.multipleInstances;
 
 import java.util.ArrayList;
 import java.util.List;
